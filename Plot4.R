@@ -4,6 +4,7 @@ house_cut <- house_energy[house_energy$Date == '1/2/2007' | house_energy$Date ==
 x <- 1:2880
 
 par(mfrow=c(2,2))
+par(bg = "white")
 par(cex.lab = 0.8, cex.axis = 0.8)
 
 # Draw first chart
